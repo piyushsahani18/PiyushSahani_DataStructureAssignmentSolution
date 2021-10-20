@@ -4,8 +4,10 @@ import com.greatlearning.model.TransactionNode;
 import com.greatlearning.service.SkewTreeConversion;
 
 public class Driver {
-
 	TransactionNode node;
+	Driver() {
+        root = null;
+    }
 
 	public static void main(String[] args) {
 
