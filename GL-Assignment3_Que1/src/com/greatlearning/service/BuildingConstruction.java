@@ -47,7 +47,7 @@ public class BuildingConstruction {
 				}
 			} catch (FloorException e) {
 				// TODO Auto-generated catch block
-				System.out.println("\n\n--- Return the Floor and Construct again ! ---");
+				System.out.println("--- Return the Floor and Construct again ! ---");
 				i--;
 				continue;
 			}
