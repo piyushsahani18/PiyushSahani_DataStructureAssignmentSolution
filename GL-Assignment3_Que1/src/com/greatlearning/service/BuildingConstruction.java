@@ -5,9 +5,9 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Stack;
-
 import com.greatlearning.model.Floor;
 import com.greatlearning.util.FloorComparator;
+import com.greatlearning.util.FloorException;
 
 public class BuildingConstruction {
 
@@ -35,7 +35,7 @@ public class BuildingConstruction {
 						floor.setFloorSize(FloorNumber);
 						allFloors[i] = floor.getFloorSize();
 						if (duplicateFloor.add(allFloors[i]) == false) {
-							System.out.println("\n\n Duplicate floor arrived of size: **" + allFloors[i] + "**  on day :"
+							System.out.println("\n\nDuplicate floor arrived of size: **" + allFloors[i] + "**  on day :"
 									+ (i + 1));
 							System.out.println("Kindly return and replace  and construct again - \n" + "");
 							i--;
@@ -72,5 +72,4 @@ public class BuildingConstruction {
 			}
 		}
 	}
-
 }
