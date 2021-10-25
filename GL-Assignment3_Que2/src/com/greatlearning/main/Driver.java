@@ -6,7 +6,7 @@ import com.greatlearning.service.SkewTreeConversion;
 public class Driver {
 	TransactionNode node;
 	Driver() {
-        root = null;
+        node = null;
     }
 
 	public static void main(String[] args) {
