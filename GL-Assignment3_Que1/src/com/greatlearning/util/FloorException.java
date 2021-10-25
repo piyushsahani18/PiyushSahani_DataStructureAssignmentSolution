@@ -4,6 +4,6 @@ package com.greatlearning.util;
 public class FloorException extends Exception {
 		
 	public FloorException() {
-		System.out.println("Floor size should be less than the building size");	
+		System.out.println("\n\n **--Floor size should be less than the building size **-- \n");	
 	}
 }
